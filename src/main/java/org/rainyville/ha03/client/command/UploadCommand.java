@@ -20,8 +20,6 @@ public class UploadCommand implements TerminalCommand {
         return "upload";
     }
 
-    // upload C:\\Users\\Account\\Downloads\\ANDAI Launcher.exe
-
     @Override
     public void onCommand(ClientHandler client, String label, String[] args) {
         String path = String.join(" ", args);
